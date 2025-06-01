@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/sanderestha/Documents/Projects/cpp-memory-assignment2/memory_assignment2'
+relocations:     []
+...
