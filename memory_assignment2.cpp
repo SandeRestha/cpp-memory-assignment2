@@ -9,9 +9,9 @@ void printMessage(const char* msg) {
 }
 
 int main() {
-    // Manually allocate memory on the heap for 30 characters (including null terminator)
+    // Manually allocate memory on the heap for 60 characters (including null terminator)
     // This memory is not managed automatically — programmer is responsible for deallocation
-    char* message = new char[30];
+    char* message = new char[60];
 
     // Copy a C-style string into the manually allocated memory
     // strcpy does not perform bounds checking — risk of buffer overflow if input exceeds allocation
